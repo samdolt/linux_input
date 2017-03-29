@@ -1,8 +1,17 @@
 [package]
 name = "linux_input-sys"
+description = "Rust binding to <linux/input.h> and /dev/input"
 version = "0.1.0"
+
 authors = ["Samuel Dolt <samuel@dolt.ch>"]
+
+documentation = "https://docs.rs/linux_input-sys"
+website = "https://github.com/samdolt/linux_input/tree/master/linux_input-sys"
+repository = "https://github.com/samdolt/linux_input"
+
 build = "build.rs"
+licence = "Unlicense"
+
 
 [build-dependencies]
 bindgen = "0.22.1"
