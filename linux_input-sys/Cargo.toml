@@ -10,7 +10,7 @@ website = "https://github.com/samdolt/linux_input/tree/master/linux_input-sys"
 repository = "https://github.com/samdolt/linux_input"
 
 build = "build.rs"
-licence = "Unlicense"
+license = "Unlicense"
 
 
 [build-dependencies]
