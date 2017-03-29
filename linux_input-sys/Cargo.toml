@@ -1,0 +1,11 @@
+[package]
+name = "linux_input-sys"
+version = "0.1.0"
+authors = ["Samuel Dolt <samuel@dolt.ch>"]
+build = "build.rs"
+
+[build-dependencies]
+bindgen = "0.22.1"
+
+[dependencies]
+
